@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    display: flex;
+    height: 550px;
+    width: 800px;
+    border: 3px solid black;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 10px 10px 0px 0px rgb(0, 0, 0)
+}
+
+.login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+}
+
+.login-page h1 {
+    font-size: 3.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 35px;
+}
+
+.login-page h2 {
+    font-size: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 20px;
+}
+
+.field {
+    padding: 12px;
+    width: 65%;
+    margin-top: 15px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 20px;
+}
+
+#submit {
+    padding: 12px 30px;
+    width: 40%;
+    margin-top: 0px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+
+#submit:hover {
+    cursor: pointer;
+    background-color: red;
+}
+
+.login-page a {
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+}
+
+.login-page a:hover {
+    color:brown;
+}
+
+.continue-with {
+    border: 1px solid black;
+    padding: 10px 30px;
+    max-width: 30%;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    outline: none;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.continue-with:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+#google {
+    width: 30px;
+    margin-left: 110px;
+    margin-top: -20px;
+}
+
+#facebook, #microsoft {
+    width: 30px;
+    margin-left: 120px;
+    margin-top: -20px;
+}
+
+/*NOTE: Both #facebook and #microsoft had the same attributes so they were paired together. The perfect amount of classes were maintained with necessary id's.*/

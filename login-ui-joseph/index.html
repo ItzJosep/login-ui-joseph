@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>Joseph's Login Page</title>
+</head>
+<body background="https://rare-gallery.com/mocahbig/424187-abstract-3D-Abstract-red-red-background-simple-background.jpg">
+    <div class="box">
+        <form action="Sign In" class="login-page">
+            <h1>Welcome Back!</h1>
+            <div>
+                <button class="continue-with">Continue with<br>Google<br><img id="google" src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png" alt="google-logo"></button>
+                <button class="continue-with">Continue with<br>Facebook<br><img id="facebook" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png" alt="facebook-logo"></button>
+                <button class="continue-with">Continue with<br>Microsoft<br><img id="microsoft" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/2048px-Microsoft_logo.svg.png" alt="microsoft-logo"></button>
+            </div>
+            <input required type="email" name="email" placeholder="Username Or Email" class="field"></input> 
+            <input required type="password" name="password" placeholder="Password" class="field"></input><br>
+            <button id="submit" value="Login">Sign In</button>
+            <h2>No account? <a href="#">Create one!</a></h2>
+            <h2><a href="#">Forgot Password?</a></h2>
+        </form>
+    </div>    
+</body>
+</html>
+
+<!--
+    NOTE: class="continue-with" was methodically applied to each button individually as opposed to the entire div to ensure the layout of the buttons appeared separately, side-by-side, in a row.
+    NOTE: <br> between "password" input and "submit" button arranged the "Login" button in the perfect position without needing to provide a separate CSS for it.
+-->
